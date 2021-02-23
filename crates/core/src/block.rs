@@ -26,6 +26,8 @@ pub enum BlockFace {
     EastSoutheast,
     Southeast,
     SouthSoutheast,
+    Up,
+    Down,
 }
 
 /// Size of bamboo leaves.

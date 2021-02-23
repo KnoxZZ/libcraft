@@ -23,7 +23,7 @@ pub struct RawBlockStateProperties {
     pub bamboo_leaves: Option<BambooLeaves>,
     pub age: Option<u8>,
     pub stage: Option<u8>,
-    pub rotation: Option<u32>,
+    pub rotation: Option<BlockFace>,
     pub open: Option<bool>,
     pub occupied: Option<bool>,
     pub part: Option<BedPart>,
